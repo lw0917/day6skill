@@ -1,0 +1,32 @@
+@import "common.scss";
+.wrap{
+    width:100%;
+    height:100%;
+    display:flex;
+    flex-direction: column;
+    background:#efefef;
+}
+header{
+   width:100%;
+   height:pxTorem(44px);
+   background:#fff;
+   display:flex;
+   justify-content:space-around;
+   align-items:center;
+   font-size:pxTorem(14px);
+   line-height:pxTorem(44px);
+   span.active{
+       border-bottom:pxTorem(2px) solid slateblue;
+       color:slateblue;   
+   }
+}
+section{
+   flex:1;
+   overflow: hidden;
+   .list{
+      padding:pxTorem(10px) pxTorem(15px);
+      box-sizing:border-box;
+      background:#fff;
+      margin-top:pxTorem(15px);
+   }
+}

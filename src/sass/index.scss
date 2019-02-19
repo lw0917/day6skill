@@ -28,5 +28,26 @@ section{
       box-sizing:border-box;
       background:#fff;
       margin-top:pxTorem(15px);
+      .con{
+          width:100%;
+          height:pxTorem(100px);
+          border-radius:pxTorem(10px);
+          border:pxTorem(1px) solid #eee;
+          margin:pxTorem(10px) 0;
+          display:flex;
+          flex-direction: column;
+          overflow: hidden;
+          .top{
+              width:100%;
+              height:pxTorem(50px);
+              padding:pxTorem(10px);
+              background:skyblue;
+              box-sizing:border-box;
+          }
+          .bottom{
+            padding:pxTorem(10px);
+            box-sizing:border-box;
+          }
+      }
    }
 }

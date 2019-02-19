@@ -196,3 +196,21 @@ section {
     box-sizing: border-box;
     background: #fff;
     margin-top: 0.4rem; }
+    section .list .con {
+      width: 100%;
+      height: 2.66667rem;
+      border-radius: 0.26667rem;
+      border: 0.02667rem solid #eee;
+      margin: 0.26667rem 0;
+      display: flex;
+      flex-direction: column;
+      overflow: hidden; }
+      section .list .con .top {
+        width: 100%;
+        height: 1.33333rem;
+        padding: 0.26667rem;
+        background: skyblue;
+        box-sizing: border-box; }
+      section .list .con .bottom {
+        padding: 0.26667rem;
+        box-sizing: border-box; }
